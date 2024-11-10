@@ -1,0 +1,41 @@
+header {
+  min-height: 59px;
+
+  .header-content {
+    border: 2px solid purple;
+    height: 100%;
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 62px;
+    height: 62px;
+  }
+
+  .header-links {
+    display: flex;
+    column-gap: 51px;
+    align-items: center;
+    nav {
+      .nav-list {
+        display: flex;
+        column-gap: 67px;
+      }
+    }
+
+    .social-icons-list {
+      display: flex;
+      column-gap: 21px;
+    }
+    li {
+      transition: 1s ease;
+
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+}
